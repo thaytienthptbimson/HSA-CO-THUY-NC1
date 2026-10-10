@@ -101,24 +101,6 @@
             box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
             border-color: #3b82f6;
         }
-
-        /* Class để highlight tab đang được chọn */
-        .tab-active {
-            background-color: #f9fafb !important; /* bg-gray-50 */
-            color: #1e40af !important; /* text-blue-800 */
-            font-weight: 700 !important; /* font-bold */
-            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
-        }
-        
-        .tab-inactive {
-            background-color: rgba(255, 255, 255, 0.2) !important;
-            color: #ffffff !important;
-            font-weight: 600 !important;
-        }
-        .tab-inactive:hover {
-            background-color: rgba(255, 255, 255, 0.9) !important;
-            color: #1e40af !important;
-        }
     </style>
 </head>
 <body class="min-h-screen flex flex-col text-gray-800">
@@ -130,8 +112,8 @@
                 <button onclick="goHome()" class="px-3 py-2 bg-white/10 hover:bg-white/30 rounded-md transition-colors" title="Trang chủ">
                     <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
                 </button>
-                <button onclick="startMode('grammar')" id="tab-grammar" class="px-5 py-2 rounded-md text-sm transition-colors tab-inactive">NGỮ PHÁP</button>
-                <button onclick="startMode('mocktest')" id="tab-mocktest" class="px-5 py-2 rounded-md text-sm transition-colors tab-inactive">LUYỆN ĐỀ</button>
+                <button onclick="selectSection('grammar')" id="tab-grammar" class="px-5 py-2 bg-gray-50 text-blue-800 font-bold rounded-md shadow-sm text-sm transition-colors">NGỮ PHÁP</button>
+                <button onclick="selectSection('mocktest')" id="tab-mocktest" class="px-5 py-2 bg-white/20 hover:bg-white/90 hover:text-blue-800 font-semibold rounded-md text-sm transition-colors">LUYỆN ĐỀ</button>
             </div>
             
             <h1 class="text-lg font-bold uppercase tracking-wider hidden sm:block truncate px-4 drop-shadow-md mx-auto cursor-pointer" onclick="goHome()">
@@ -159,7 +141,7 @@
                 </div>
                 <h3 class="text-2xl font-bold text-gray-800 mb-3">Ôn Tập Ngữ Pháp</h3>
                 <p class="text-gray-500 mb-6 flex-grow">Hệ thống hóa toàn bộ kiến thức ngữ pháp trọng tâm. Làm bài tập theo từng chuyên đề giúp nắm chắc nền tảng.</p>
-                <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-blue-700 transition-colors pointer-events-none">VÀO HỌC NGAY</button>
+                <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-blue-700 transition-colors">VÀO HỌC NGAY</button>
             </div>
 
             <!-- Card Luyện Đề -->
@@ -169,7 +151,7 @@
                 </div>
                 <h3 class="text-2xl font-bold text-gray-800 mb-3">Luyện Đề Thi Thử</h3>
                 <p class="text-gray-500 mb-6 flex-grow">Trải nghiệm làm bài thi thử với áp lực thời gian thực. Đề thi mô phỏng cấu trúc HSA mới nhất.</p>
-                <button class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-indigo-700 transition-colors pointer-events-none">THI THỬ NGAY</button>
+                <button class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-indigo-700 transition-colors">THI THỬ NGAY</button>
             </div>
         </div>
     </div>
@@ -181,7 +163,7 @@
         <aside class="w-full lg:w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm border border-gray-200 lg:sticky lg:top-[75px] z-20 overflow-hidden">
             <h2 class="text-base font-bold text-blue-900 bg-blue-50/50 p-3 border-b border-gray-200 flex items-center uppercase" id="sidebar-title">
                 <svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
-                Danh mục
+                <span id="sidebar-title-text">Danh mục</span>
             </h2>
             <div id="sidebar-container" class="max-h-[30vh] lg:max-h-[calc(100vh-140px)] overflow-y-auto custom-scrollbar bg-gray-50/30">
                 <!-- Sinh bằng JS -->
@@ -256,47 +238,21 @@
     </footer>
 
     <script>
-        // Cập nhật giao diện Tab Navigation
-        function updateTabUI(activeMode) {
-            const tabGrammar = document.getElementById('tab-grammar');
-            const tabMocktest = document.getElementById('tab-mocktest');
-
-            // Reset tất cả các tab về trạng thái không được chọn
-            tabGrammar.className = "px-5 py-2 rounded-md text-sm transition-colors tab-inactive";
-            tabMocktest.className = "px-5 py-2 rounded-md text-sm transition-colors tab-inactive";
-
-            // Đặt trạng thái Active cho tab tương ứng
-            if (activeMode === 'grammar') {
-                tabGrammar.className = "px-5 py-2 rounded-md text-sm transition-colors tab-active";
-            } else if (activeMode === 'mocktest') {
-                tabMocktest.className = "px-5 py-2 rounded-md text-sm transition-colors tab-active";
-            }
-        }
-
-        // Quay lại trang chủ
+        // Các hàm xử lý giao diện
         function goHome() {
+            if (typeof stopTimer === 'function') stopTimer();
             document.getElementById('home-screen').classList.remove('hidden-element');
             document.getElementById('workspace-screen').classList.add('hidden-element');
             document.getElementById('header-tabs').style.display = 'none';
             document.getElementById('timer-display').classList.add('hidden-element');
         }
 
-        // Hàm xử lý chung khi bắt đầu chọn 1 chế độ (từ Trang chủ hoặc Header)
         function startMode(mode) {
-            // Chuyển đổi màn hình
             document.getElementById('home-screen').classList.add('hidden-element');
             document.getElementById('workspace-screen').classList.remove('hidden-element');
             document.getElementById('header-tabs').style.display = 'flex';
             
-            // Xử lý ẩn/hiện giao diện Màn hình chào mừng và Màn hình thi
-            document.getElementById('welcome-screen').classList.remove('hidden-element');
-            document.getElementById('test-screen').classList.add('hidden-element');
-            document.getElementById('result-screen').classList.add('hidden-element');
-
-            // Cập nhật giao diện cho tab trên Header
-            updateTabUI(mode);
-
-            // Gọi hàm từ app.js để tải dữ liệu danh mục đúng chuyên mục
+            // Gọi hàm từ app.js để load đúng chuyên mục
             if(typeof selectSection === 'function') {
                 selectSection(mode);
             }
