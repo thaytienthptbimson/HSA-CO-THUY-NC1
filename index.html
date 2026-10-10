@@ -101,196 +101,179 @@
             box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
             border-color: #3b82f6;
         }
+
+        /* Class để highlight tab đang được chọn */
+        .tab-active {
+            background-color: #f9fafb !important; /* bg-gray-50 */
+            color: #1e40af !important; /* text-blue-800 */
+            font-weight: 700 !important; /* font-bold */
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+        }
+        
+        .tab-inactive {
+            background-color: rgba(255, 255, 255, 0.2) !important;
+            color: #ffffff !important;
+            font-weight: 600 !important;
+        }
+        .tab-inactive:hover {
+            background-color: rgba(255, 255, 255, 0.9) !important;
+            color: #1e40af !important;
+        }
     </style>
 </head>
-<body class="text-gray-800">
+<body class="min-h-screen flex flex-col text-gray-800">
 
-    <!-- MÀN HÌNH ĐĂNG NHẬP -->
-    <div id="login-screen" class="fixed inset-0 bg-gray-900 z-[100] flex items-center justify-center p-4">
-        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-md w-full text-center border-t-4 border-blue-600">
-            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+    <!-- HEADER -->
+    <header class="glass-header text-white sticky top-0 z-40 h-[60px] flex items-center">
+        <div class="max-w-[1500px] w-full mx-auto px-4 flex justify-between items-center">
+            <div class="flex space-x-2" id="header-tabs" style="display: none;">
+                <button onclick="goHome()" class="px-3 py-2 bg-white/10 hover:bg-white/30 rounded-md transition-colors" title="Trang chủ">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                </button>
+                <button onclick="startMode('grammar')" id="tab-grammar" class="px-5 py-2 rounded-md text-sm transition-colors tab-inactive">NGỮ PHÁP</button>
+                <button onclick="startMode('mocktest')" id="tab-mocktest" class="px-5 py-2 rounded-md text-sm transition-colors tab-inactive">LUYỆN ĐỀ</button>
             </div>
-            <h2 class="text-2xl font-bold text-gray-800 mb-2">Đăng nhập hệ thống</h2>
-            <p class="text-gray-500 mb-6 text-sm">Vui lòng nhập mật khẩu để truy cập tài liệu ôn thi.</p>
             
-            <input type="password" id="password-input" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 text-center text-lg" placeholder="Nhập mật khẩu...">
-            <p id="login-error" class="text-red-500 text-sm mb-4 hidden-element font-semibold">Sai mật khẩu, vui lòng thử lại!</p>
+            <h1 class="text-lg font-bold uppercase tracking-wider hidden sm:block truncate px-4 drop-shadow-md mx-auto cursor-pointer" onclick="goHome()">
+                Ôn thi Tiếng Anh ĐGNL - HSA ĐHQGHN 2026
+            </h1>
             
-            <button onclick="checkPassword()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">
-                ĐĂNG NHẬP
-            </button>
+            <div class="text-lg font-black bg-white/20 backdrop-blur-md px-4 py-1.5 rounded border border-white/30 shadow-inner flex-shrink-0 tracking-widest hidden-element" id="timer-display">
+                60:00
+            </div>
+        </div>
+    </header>
+
+    <!-- TRANG CHỦ (CHỌN CHẾ ĐỘ) -->
+    <div id="home-screen" class="max-w-5xl mx-auto w-full flex-grow flex flex-col justify-center p-6 mt-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-4 drop-shadow-sm">HỆ THỐNG LUYỆN THI TIẾNG ANH HSA</h2>
+            <p class="text-lg text-gray-600 font-medium max-w-2xl mx-auto">Nền tảng ôn luyện chuyên sâu với các chuyên đề ngữ pháp và đề thi thử được thiết kế bám sát cấu trúc đề Đánh giá năng lực ĐHQGHN.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto w-full">
+            <!-- Card Ngữ Pháp -->
+            <div onclick="startMode('grammar')" class="dashboard-card bg-white rounded-2xl border-2 border-blue-100 p-8 flex flex-col items-center text-center">
+                <div class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Ôn Tập Ngữ Pháp</h3>
+                <p class="text-gray-500 mb-6 flex-grow">Hệ thống hóa toàn bộ kiến thức ngữ pháp trọng tâm. Làm bài tập theo từng chuyên đề giúp nắm chắc nền tảng.</p>
+                <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-blue-700 transition-colors pointer-events-none">VÀO HỌC NGAY</button>
+            </div>
+
+            <!-- Card Luyện Đề -->
+            <div onclick="startMode('mocktest')" class="dashboard-card bg-white rounded-2xl border-2 border-indigo-100 p-8 flex flex-col items-center text-center">
+                <div class="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Luyện Đề Thi Thử</h3>
+                <p class="text-gray-500 mb-6 flex-grow">Trải nghiệm làm bài thi thử với áp lực thời gian thực. Đề thi mô phỏng cấu trúc HSA mới nhất.</p>
+                <button class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-indigo-700 transition-colors pointer-events-none">THI THỬ NGAY</button>
+            </div>
         </div>
     </div>
 
-    <!-- WRAPPER CHỨA TOÀN BỘ NỘI DUNG WEB (Ẩn đi cho đến khi đăng nhập thành công) -->
-    <div id="app-content" class="min-h-screen flex flex-col hidden-element">
+    <!-- MAIN LAYOUT (WORKSPACE) -->
+    <div id="workspace-screen" class="hidden-element max-w-[1500px] mx-auto w-full flex-grow flex flex-col lg:flex-row p-3 gap-4 items-start mt-2">
         
-        <!-- HEADER -->
-        <header class="glass-header text-white sticky top-0 z-40 h-[60px] flex items-center">
-            <div class="max-w-[1500px] w-full mx-auto px-4 flex justify-between items-center">
-                <div class="flex space-x-2" id="header-tabs" style="display: none;">
-                    <button onclick="goHome()" class="px-3 py-2 bg-white/10 hover:bg-white/30 rounded-md transition-colors" title="Trang chủ">
-                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-                    </button>
-                    <button onclick="selectSection('grammar')" id="tab-grammar" class="px-5 py-2 bg-gray-50 text-blue-800 font-bold rounded-md shadow-sm text-sm transition-colors">NGỮ PHÁP</button>
-                    <button onclick="selectSection('mocktest')" id="tab-mocktest" class="px-5 py-2 bg-white/20 hover:bg-white/90 hover:text-blue-800 font-semibold rounded-md text-sm transition-colors">LUYỆN ĐỀ</button>
-                </div>
-                
-                <h1 class="text-lg font-bold uppercase tracking-wider hidden sm:block truncate px-4 drop-shadow-md mx-auto cursor-pointer" onclick="goHome()">
-                    Ôn thi Tiếng Anh ĐGNL - HSA ĐHQGHN 2026
-                </h1>
-                
-                <div class="text-lg font-black bg-white/20 backdrop-blur-md px-4 py-1.5 rounded border border-white/30 shadow-inner flex-shrink-0 tracking-widest hidden-element" id="timer-display">
-                    60:00
-                </div>
+        <!-- SIDEBAR -->
+        <aside class="w-full lg:w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm border border-gray-200 lg:sticky lg:top-[75px] z-20 overflow-hidden">
+            <h2 class="text-base font-bold text-blue-900 bg-blue-50/50 p-3 border-b border-gray-200 flex items-center uppercase" id="sidebar-title">
+                <svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+                Danh mục
+            </h2>
+            <div id="sidebar-container" class="max-h-[30vh] lg:max-h-[calc(100vh-140px)] overflow-y-auto custom-scrollbar bg-gray-50/30">
+                <!-- Sinh bằng JS -->
             </div>
-        </header>
+        </aside>
 
-        <!-- TRANG CHỦ (CHỌN CHẾ ĐỘ) -->
-        <div id="home-screen" class="max-w-5xl mx-auto w-full flex-grow flex flex-col justify-center p-6 mt-4">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-4 drop-shadow-sm">HỆ THỐNG LUYỆN THI TIẾNG ANH HSA</h2>
-                <p class="text-lg text-gray-600 font-medium max-w-2xl mx-auto">Nền tảng ôn luyện chuyên sâu với các chuyên đề ngữ pháp và đề thi thử được thiết kế bám sát cấu trúc đề Đánh giá năng lực ĐHQGHN.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto w-full">
-                <!-- Card Ngữ Pháp -->
-                <div onclick="startMode('grammar')" class="dashboard-card bg-white rounded-2xl border-2 border-blue-100 p-8 flex flex-col items-center text-center">
-                    <div class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Ôn Tập Ngữ Pháp</h3>
-                    <p class="text-gray-500 mb-6 flex-grow">Hệ thống hóa toàn bộ kiến thức ngữ pháp trọng tâm. Làm bài tập theo từng chuyên đề giúp nắm chắc nền tảng.</p>
-                    <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-blue-700 transition-colors">VÀO HỌC NGAY</button>
-                </div>
-
-                <!-- Card Luyện Đề -->
-                <div onclick="startMode('mocktest')" class="dashboard-card bg-white rounded-2xl border-2 border-indigo-100 p-8 flex flex-col items-center text-center">
-                    <div class="w-24 h-24 bg-indigo-50 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
-                    </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-3">Luyện Đề Thi Thử</h3>
-                    <p class="text-gray-500 mb-6 flex-grow">Trải nghiệm làm bài thi thử với áp lực thời gian thực. Đề thi mô phỏng cấu trúc HSA mới nhất.</p>
-                    <button class="bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl w-full hover:bg-indigo-700 transition-colors">THI THỬ NGAY</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- MAIN LAYOUT (WORKSPACE) -->
-        <div id="workspace-screen" class="hidden-element max-w-[1500px] mx-auto w-full flex-grow flex flex-col lg:flex-row p-3 gap-4 items-start mt-2">
+        <!-- MAIN CONTENT -->
+        <main class="w-full flex-grow min-w-0 bg-white rounded-xl shadow-sm border border-gray-200 p-4 md:p-6 relative">
             
-            <!-- SIDEBAR -->
-            <aside class="w-full lg:w-[280px] flex-shrink-0 bg-white rounded-xl shadow-sm border border-gray-200 lg:sticky lg:top-[75px] z-20 overflow-hidden">
-                <h2 class="text-base font-bold text-blue-900 bg-blue-50/50 p-3 border-b border-gray-200 flex items-center uppercase" id="sidebar-title">
-                    <svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
-                    Danh mục
-                </h2>
-                <div id="sidebar-container" class="max-h-[30vh] lg:max-h-[calc(100vh-140px)] overflow-y-auto custom-scrollbar bg-gray-50/30">
-                    <!-- Sinh bằng JS -->
+            <div id="welcome-screen" class="text-center py-16">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-50 mb-4 border border-blue-100">
+                    <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
                 </div>
-            </aside>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Hệ thống Luyện thi HSA Tiếng Anh 2026</h2>
+                <p class="text-gray-500 font-medium text-base mb-2">Vui lòng chọn bài từ danh sách bên trái để bắt đầu.</p>
+            </div>
 
-            <!-- MAIN CONTENT -->
-            <main class="w-full flex-grow min-w-0 bg-white rounded-xl shadow-sm border border-gray-200 p-4 md:p-6 relative">
+            <div id="test-screen" class="hidden-element">
+                <div class="flex justify-between items-end border-b border-gray-200 pb-3 mb-5">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold text-blue-800" id="current-test-title">Đề thi</h2>
+                        <p class="text-sm text-indigo-600 mt-1 font-semibold" id="current-test-subtitle">Định dạng ĐGNL ĐHQGHN</p>
+                    </div>
+                </div>
                 
-                <div id="welcome-screen" class="text-center py-16">
-                    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-50 mb-4 border border-blue-100">
-                        <svg class="w-10 h-10 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Hệ thống Luyện thi HSA Tiếng Anh 2026</h2>
-                    <p class="text-gray-500 font-medium text-base mb-2">Vui lòng chọn bài từ danh sách bên trái để bắt đầu.</p>
-                </div>
+                <div id="questions-container" class="space-y-6"></div>
 
-                <div id="test-screen" class="hidden-element">
-                    <div class="flex justify-between items-end border-b border-gray-200 pb-3 mb-5">
-                        <div>
-                            <h2 class="text-2xl md:text-3xl font-bold text-blue-800" id="current-test-title">Đề thi</h2>
-                            <p class="text-sm text-indigo-600 mt-1 font-semibold" id="current-test-subtitle">Định dạng ĐGNL ĐHQGHN</p>
-                        </div>
-                    </div>
-                    
-                    <div id="questions-container" class="space-y-6"></div>
-
-                    <div class="mt-8 pt-6 border-t border-gray-200 flex justify-center">
-                        <button onclick="submitTest()" id="submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-12 text-lg rounded-lg shadow-md transition-all w-full md:w-auto">
-                            NỘP BÀI & XEM ĐIỂM
-                        </button>
-                    </div>
-                </div>
-
-                <!-- BẢNG ĐIỂM SAU KHI NỘP -->
-                <div id="result-screen" class="hidden-element text-center py-8">
-                    <h2 class="text-3xl md:text-4xl font-black text-green-600 mb-2">Hoàn thành bài thi!</h2>
-                    
-                    <div class="bg-gradient-to-b from-blue-50 to-white border border-blue-100 rounded-2xl p-6 max-w-3xl mx-auto my-6 shadow-lg">
-                        <div class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-6 drop-shadow-sm" id="score-display">0/50</div>
-                        
-                        <div class="grid grid-cols-3 gap-4 mb-6">
-                            <div class="bg-green-50 border border-green-200 p-4 rounded-xl shadow-sm">
-                                <div class="text-green-600 text-sm font-bold uppercase mb-1">Câu đúng</div>
-                                <div class="text-3xl font-black text-green-700" id="correct-display">0</div>
-                            </div>
-                            <div class="bg-red-50 border border-red-200 p-4 rounded-xl shadow-sm">
-                                <div class="text-red-600 text-sm font-bold uppercase mb-1">Câu sai</div>
-                                <div class="text-3xl font-black text-red-700" id="wrong-display">0</div>
-                            </div>
-                            <div class="bg-purple-50 border border-purple-200 p-4 rounded-xl shadow-sm">
-                                <div class="text-purple-600 text-sm font-bold uppercase mb-1">Tỷ lệ</div>
-                                <div class="text-3xl font-black text-purple-700" id="percent-display">0%</div>
-                            </div>
-                        </div>
-                        
-                        <div id="motivation-message" class="text-lg font-bold text-gray-800 mt-6 pt-6 border-t border-gray-200 italic"></div>
-                    </div>
-
-                    <p class="text-gray-500 mb-6 font-medium">Lướt lên trên để xem chi tiết đáp án và rút kinh nghiệm nhé!</p>
-                    <button onclick="continueAfterResult()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-10 text-lg rounded-xl shadow transition-transform transform hover:-translate-y-1">
-                        Trở về Danh mục
+                <div class="mt-8 pt-6 border-t border-gray-200 flex justify-center">
+                    <button onclick="submitTest()" id="submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-12 text-lg rounded-lg shadow-md transition-all w-full md:w-auto">
+                        NỘP BÀI & XEM ĐIỂM
                     </button>
                 </div>
-            </main>
-        </div>
+            </div>
 
-        <!-- FOOTER -->
-        <footer class="bg-gray-800 text-center py-4 mt-auto border-t-2 border-blue-500">
-            <p class="font-bold text-white text-sm">Hệ thống Luyện thi Tiếng Anh ĐGNL - ĐHQGHN</p>
-            <p class="text-sm mt-1 text-yellow-400 font-semibold">GV: Phạm Văn Tiến | ĐT: 0943.930.787</p>
-        </footer>
+            <!-- BẢNG ĐIỂM SAU KHI NỘP -->
+            <div id="result-screen" class="hidden-element text-center py-8">
+                <h2 class="text-3xl md:text-4xl font-black text-green-600 mb-2">Hoàn thành bài thi!</h2>
+                
+                <div class="bg-gradient-to-b from-blue-50 to-white border border-blue-100 rounded-2xl p-6 max-w-3xl mx-auto my-6 shadow-lg">
+                    <div class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-6 drop-shadow-sm" id="score-display">0/50</div>
+                    
+                    <div class="grid grid-cols-3 gap-4 mb-6">
+                        <div class="bg-green-50 border border-green-200 p-4 rounded-xl shadow-sm">
+                            <div class="text-green-600 text-sm font-bold uppercase mb-1">Câu đúng</div>
+                            <div class="text-3xl font-black text-green-700" id="correct-display">0</div>
+                        </div>
+                        <div class="bg-red-50 border border-red-200 p-4 rounded-xl shadow-sm">
+                            <div class="text-red-600 text-sm font-bold uppercase mb-1">Câu sai</div>
+                            <div class="text-3xl font-black text-red-700" id="wrong-display">0</div>
+                        </div>
+                        <div class="bg-purple-50 border border-purple-200 p-4 rounded-xl shadow-sm">
+                            <div class="text-purple-600 text-sm font-bold uppercase mb-1">Tỷ lệ</div>
+                            <div class="text-3xl font-black text-purple-700" id="percent-display">0%</div>
+                        </div>
+                    </div>
+                    
+                    <div id="motivation-message" class="text-lg font-bold text-gray-800 mt-6 pt-6 border-t border-gray-200 italic"></div>
+                </div>
 
-    </div> <!-- KẾT THÚC WRAPPER -->
+                <p class="text-gray-500 mb-6 font-medium">Lướt lên trên để xem chi tiết đáp án và rút kinh nghiệm nhé!</p>
+                <button onclick="continueAfterResult()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-10 text-lg rounded-xl shadow transition-transform transform hover:-translate-y-1">
+                    Trở về Danh mục
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-800 text-center py-4 mt-auto border-t-2 border-blue-500">
+        <p class="font-bold text-white text-sm">Hệ thống Luyện thi Tiếng Anh ĐGNL - ĐHQGHN</p>
+        <p class="text-sm mt-1 text-yellow-400 font-semibold">GV: Phạm Văn Tiến | ĐT: 0943.930.787</p>
+    </footer>
 
     <script>
-        // --- CHỨC NĂNG KIỂM TRA MẬT KHẨU ĐĂNG NHẬP ---
-        const MAT_KHAU_HE_THONG = "123456"; // Đổi mật khẩu tại đây
+        // Cập nhật giao diện Tab Navigation
+        function updateTabUI(activeMode) {
+            const tabGrammar = document.getElementById('tab-grammar');
+            const tabMocktest = document.getElementById('tab-mocktest');
 
-        function checkPassword() {
-            const input = document.getElementById('password-input').value;
-            const errorMsg = document.getElementById('login-error');
-            
-            if (input === MAT_KHAU_HE_THONG) {
-                // Đăng nhập thành công: Ẩn màn hình đăng nhập, hiện ứng dụng
-                document.getElementById('login-screen').classList.add('hidden-element');
-                document.getElementById('app-content').classList.remove('hidden-element');
-            } else {
-                // Sai mật khẩu
-                errorMsg.classList.remove('hidden-element');
-                document.getElementById('password-input').value = ''; 
-                document.getElementById('password-input').focus();
+            // Reset tất cả các tab về trạng thái không được chọn
+            tabGrammar.className = "px-5 py-2 rounded-md text-sm transition-colors tab-inactive";
+            tabMocktest.className = "px-5 py-2 rounded-md text-sm transition-colors tab-inactive";
+
+            // Đặt trạng thái Active cho tab tương ứng
+            if (activeMode === 'grammar') {
+                tabGrammar.className = "px-5 py-2 rounded-md text-sm transition-colors tab-active";
+            } else if (activeMode === 'mocktest') {
+                tabMocktest.className = "px-5 py-2 rounded-md text-sm transition-colors tab-active";
             }
         }
 
-        // Hỗ trợ nhấn Enter để đăng nhập
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('password-input').addEventListener('keypress', function (e) {
-                if (e.key === 'Enter') {
-                    checkPassword();
-                }
-            });
-        });
-        // ----------------------------------------------
-
-        // Các hàm xử lý giao diện cũ
+        // Quay lại trang chủ
         function goHome() {
             document.getElementById('home-screen').classList.remove('hidden-element');
             document.getElementById('workspace-screen').classList.add('hidden-element');
@@ -298,12 +281,22 @@
             document.getElementById('timer-display').classList.add('hidden-element');
         }
 
+        // Hàm xử lý chung khi bắt đầu chọn 1 chế độ (từ Trang chủ hoặc Header)
         function startMode(mode) {
+            // Chuyển đổi màn hình
             document.getElementById('home-screen').classList.add('hidden-element');
             document.getElementById('workspace-screen').classList.remove('hidden-element');
             document.getElementById('header-tabs').style.display = 'flex';
             
-            // Gọi hàm từ app.js để load đúng chuyên mục
+            // Xử lý ẩn/hiện giao diện Màn hình chào mừng và Màn hình thi
+            document.getElementById('welcome-screen').classList.remove('hidden-element');
+            document.getElementById('test-screen').classList.add('hidden-element');
+            document.getElementById('result-screen').classList.add('hidden-element');
+
+            // Cập nhật giao diện cho tab trên Header
+            updateTabUI(mode);
+
+            // Gọi hàm từ app.js để tải dữ liệu danh mục đúng chuyên mục
             if(typeof selectSection === 'function') {
                 selectSection(mode);
             }
