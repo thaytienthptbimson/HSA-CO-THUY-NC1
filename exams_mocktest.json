@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "e1791643939158_mocktest",
+    "name": "ĐỀ THI TEST NĂNG LỰC HSA - ĐHGQHN NĂM 2026 - LUYỆN ĐỀ",
+    "at": 1791643939158,
+    "eq": [],
+    "img": [],
+    "time": 24,
+    "scale": "english",
+    "openAt": 0,
+    "closeAt": 0,
+    "shufGrp": true,
+    "shufQ": true,
+    "shufOpt": true,
+    "items": [
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Cloze text: Read the passage below and choose A, B, C or D to fill in each blank from 631 to 635.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "p",
+        "runs": [
+          {
+            "t": "Volunteering is an excellent way to give back to the community. It not only helps those in need but also provides the volunteer with a strong sense of (631) ______. Many non-profit organizations rely heavily on volunteers to carry out their important missions. (632) ______ you are interested in protecting the environment, tutoring children, or helping the elderly, there is always an opportunity for you. By dedicating your free time, you can (633) ______ a significant difference in society. Furthermore, volunteering allows you to meet new people and develop essential life skills. It is highly (634) ______ that young adults participate in volunteer work during their college years. In conclusion, volunteering is a truly rewarding experience that benefits (635) ______ the giver and the receiver.",
+            "f": 0
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 631,
+        "qtype": "mc",
+        "stem": [],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "purpose",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "money",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "stress",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "anger",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 632,
+        "qtype": "mc",
+        "stem": [],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Whether",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "Because",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Although",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "If",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 633,
+        "qtype": "mc",
+        "stem": [],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "make",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "do",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "take",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "get",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 634,
+        "qtype": "mc",
+        "stem": [],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "recommended",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "recommending",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "recommend",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "to recommend",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 635,
+        "qtype": "mc",
+        "stem": [],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "both",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "either",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "neither",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "not only",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Error Identification: Identify the underlined part that needs correction in each sentence.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 636,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The number of students (A) attending the seminar (B) have increased (C) significantly over the past few (D) years.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "attending",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "have increased",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "significantly",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "years",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 637,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "She (A) suggested that we (B) should left (C) early to avoid (D) the traffic jam.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "suggested",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "should left",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "early",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "the traffic jam",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 638,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Despite (A) of his poor health, he (B) managed to complete (C) the marathon in record (D) time.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "of his",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "managed to",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "the marathon",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "time",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 639,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The movie was (A) so bored that (B) many people fell (C) asleep before it (D) ended.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "so bored",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "many people",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "asleep",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "ended",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 640,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "He (A) works (B) hardly every day to (C) provide for his (D) large family.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "works",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "hardly",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "provide for",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "large family",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Reading Comprehension 1: Read the passage and answer questions 641 to 645.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "p",
+        "runs": [
+          {
+            "t": "The invention of the internet has completely revolutionized the way we communicate and access information. Before the internet, people relied heavily on traditional media such as daily newspapers, television broadcasts, and radio for the news. Researching a specific topic required physical trips to the library and hours of looking through heavy encyclopedias. Today, with just a few clicks, we can access a vast amount of information on almost any subject imaginable.",
+            "f": 0
+          }
+        ]
+      },
+      {
+        "k": "p",
+        "runs": [
+          {
+            "t": "The internet has also transformed personal and professional communication. Email and social media platforms allow us to stay connected with friends, family, and colleagues around the world instantly. However, the internet also presents new challenges, such as the rapid spread of misinformation and growing concerns about online privacy. It is absolutely essential for users to critically evaluate the information they find online and take steps to protect their personal data.",
+            "f": 0
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 641,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "What is the main idea of the passage?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "The challenges of using the internet",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The history of traditional media",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The impact of the internet on society",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "How to use social media safely",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 642,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "According to the passage, how did people research a topic before the internet?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "By asking friends for knowledge",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "By visiting the library physically",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "By watching television documentaries",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "By sending emails to experts",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 643,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The word \"revolutionized\" in the first sentence is closest in meaning to:",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "completely changed",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "slightly improved",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "entirely destroyed",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "steadily maintained",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 644,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Which of the following is NOT mentioned as a benefit of the internet?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Accessing information quickly",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Staying connected with family",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Improving physical health",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "Communicating instantly",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 645,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The author warns internet users about:",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "spending too much time online",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "the spread of misinformation and privacy concerns",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "paying for expensive internet connections",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "losing traditional face-to-face communication skills",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Reading Comprehension 2: Read the passage and answer questions 646 to 650.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "p",
+        "runs": [
+          {
+            "t": "Artificial Intelligence (AI) is rapidly becoming an integral part of our daily lives. From virtual assistants like Siri and Alexa to recommendation algorithms on streaming services, AI technology is specifically designed to make our daily tasks easier and more efficient. In the healthcare sector, AI is currently being used to analyze complex medical images and assist doctors in diagnosing severe diseases with high accuracy. In transportation, self-driving cars powered by AI aim to significantly reduce road accidents caused by human error.",
+            "f": 0
+          }
+        ]
+      },
+      {
+        "k": "p",
+        "runs": [
+          {
+            "t": "Despite its numerous benefits, the rapid rise of AI also raises several serious ethical questions. There are growing concerns about job displacement as machines become increasingly capable of performing tasks traditionally done by human workers. Additionally, the complex issue of bias in AI algorithms needs to be addressed urgently to ensure social fairness. As AI continues to evolve, society must carefully navigate these challenges to maximize its positive impact while minimizing potential harms.",
+            "f": 0
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 646,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "What is the primary focus of the text?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "The deep history of artificial intelligence",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The practical applications and challenges of AI",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "How self-driving vehicles operate",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The future of the healthcare industry",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 647,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "According to the text, how is AI being utilized in healthcare?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "To replace human doctors entirely",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "To schedule patient appointments efficiently",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "To analyze medical images and assist in diagnosis",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "To develop and test new medicines",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 648,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The word \"displacement\" in the second paragraph is closest in meaning to:",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "creation",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "loss",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "satisfaction",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "opportunity",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 649,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "What is one of the ethical concerns associated with AI mentioned in the passage?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "High cost of AI devices for consumers",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Lack of genuine human interaction",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Bias within AI programming algorithms",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "Slow processing speed of modern computers",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 650,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "What can be inferred from the last sentence of the passage?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "AI development should be halted immediately.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The societal benefits of AI always outweigh the inherent risks.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Society needs to manage AI development carefully to truly benefit from it.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "Ethical challenges surrounding AI are impossible to solve.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      }
+    ]
+  }
+]

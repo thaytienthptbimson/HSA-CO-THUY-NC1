@@ -1,0 +1,1581 @@
+[
+  {
+    "id": "e1791643939158_grammar",
+    "name": "ĐỀ THI TEST NĂNG LỰC HSA - ĐHGQHN NĂM 2026 - NGỮ PHÁP",
+    "at": 1791643939158,
+    "eq": [],
+    "img": [],
+    "time": 36,
+    "scale": "english",
+    "openAt": 0,
+    "closeAt": 0,
+    "shufGrp": true,
+    "shufQ": true,
+    "shufOpt": true,
+    "items": [
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Sentence completion: Choose A, B, C or D to complete each sentence.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 601,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The woman ______ helped me with my luggage at the station was very kind.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "who",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "which",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "whom",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "whose",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 602,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The manager suggested ______ a short break after hours of hard work.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "to take",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "taking",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "taken",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "take",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 603,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "You ______ finish your assignments before going out with your friends.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "might",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "ought",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "must",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "could",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 604,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "New York is considered one of the most ______ cities in the world.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "dynamic",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "dynamically",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "dynamics",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "dynamism",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 605,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "My brother ______ finding a new job because of the low salary and long hours.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "thinks of",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "is thinking of",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "thought of",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "will think of",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 606,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The documentary about African wildlife was extremely ______ to watch.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "fascinate",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "fascination",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "fascinated",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "fascinating",
+                "f": 0
+              }
+            ],
+            "ok": true
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 607,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "If I ______ you, I would apply for that university scholarship immediately.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "am",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "was",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "were",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "have been",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 608,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "We should heavily invest in ______ energy sources like solar and wind power to protect the environment.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "renewable",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "exhausted",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "limited",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "dangerous",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 609,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The professor had his students ______ an essay on global warming by Friday.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "to write",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "written",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "writing",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "write",
+                "f": 0
+              }
+            ],
+            "ok": true
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 610,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Consumers should ______ the quality of the product before purchasing it online.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "take advantage of",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "take into consideration",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "make use of",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "keep pace with",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Synonyms: Choose A, B, C or D that has the CLOSEST meaning to the underlined word/phrase in each question.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 611,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The local authority initiated a campaign to protect endangered species in the national park.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "started",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "stopped",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "prevented",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "delayed",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 612,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Many scientists believe that global warming is a pressing issue of our time.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "urgent",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "trivial",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "minor",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "relaxed",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Antonyms: Choose A, B, C or D that has the OPPOSITE meaning to the underlined word/phrase in each question.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 613,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The committee rejected the new educational proposal because it was completely impractical.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "accepted",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "refused",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "denied",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "ignored",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 614,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "His presentation was so confusing that most of the audience didn't understand the main point.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "complicated",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "clear",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "boring",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "complex",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Dialogue completion: Choose A, B, C or D to complete each dialogue.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 615,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Hoa: \"Would you like to join us for dinner tonight?\" Mai: \"______\"",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Yes, I'd love to.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "No, thanks. I'm full.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "You're welcome.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "I don't think so.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 616,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Tom: \"I finally passed my driving test!\" Jerry: \"______\"",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Better luck next time!",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Congratulations!",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "That's a good idea.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "I'm sorry to hear that.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 617,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Sarah: \"Could you please help me with this heavy box?\" Mark: \"______\"",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Yes, I could.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "No, I couldn't.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Sure, no problem.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "I'm afraid I can.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 618,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Alex: \"Do you mind if I open the window to get some fresh air?\" Ben: \"______\"",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Yes, please do.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "No, not at all.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "I agree with you.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "That's right.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Dialogue arrangement: Choose A, B, C or D to make a complete dialogue for each question.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 619,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "a. I'm looking for a book on Vietnamese history.\nb. Good morning! Can I help you find something?\nc. It's in the history section, aisle 4, on the second floor.\nd. Thank you very much.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "b-a-c-d",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "a-b-c-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "b-c-a-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "a-c-b-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 620,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "a. It's about $50 per night.\nb. How much does a double room cost?\nc. I'd like to book a room for this weekend, please.\nd. Does that price include breakfast?",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "c-b-a-d",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "b-a-c-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "c-a-b-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "b-c-a-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 621,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "a. I'm not feeling well today. I have a terrible headache.\nb. Why didn't you come to school this morning?\nc. Have you seen a doctor yet?\nd. No, I just need some rest and a few painkillers.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "b-a-c-d",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "a-b-c-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "b-c-a-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "a-c-b-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "q",
+        "no": 622,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "a. I think we should take the train. It avoids the traffic jam.\nb. How are we getting to the airport tomorrow?\nc. Good idea, it's definitely faster than driving during rush hour.\nd. But the train station is quite far from our house.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "b-a-c-d",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "a-b-c-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "b-d-a-c",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "a-c-b-d",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 1
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Sentence rewriting: Choose A, B, C or D that has the CLOSEST meaning to the given sentence in each question.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 623,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "\"I will call you when I arrive at the hotel,\" he said to me.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "He promised to call me when he arrived at the hotel.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "He suggested calling me when he arrived at the hotel.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "He denied calling me when he arrived at the hotel.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "He refused to call me when he arrived at the hotel.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 624,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The physics test was so difficult that none of the students could finish it on time.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "It was such a difficult physics test that none of the students could finish it on time.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "The physics test was too difficult for none of the students to finish it on time.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The physics test was not easy enough for all students to finish it on time.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Such was the difficult physics test that all of the students could finish it on time.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 625,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "People say that Professor Smith is the best researcher in the institute.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Professor Smith is said to be the best researcher in the institute.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "It is said him to be the best researcher in the institute.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Professor Smith was said to be the best researcher in the institute.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "It was said that Professor Smith is the best researcher in the institute.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 626,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "Immediately after I left the house, it started to rain heavily.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Hardly had I left the house when it started to rain heavily.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "No sooner did I leave the house when it started to rain heavily.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Scarcely had I left the house than it started to rain heavily.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "I had left the house as soon as it started to rain heavily.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "h",
+        "runs": [
+          {
+            "t": "Sentence combination: Choose A, B, C or D that has the CLOSEST meaning to the given pair of sentences in each question.",
+            "f": 2
+          }
+        ]
+      },
+      {
+        "k": "q",
+        "no": 627,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "She was very tired. She tried to finish her financial report.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "Although she was very tired, she tried to finish her financial report.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "Because she was very tired, she tried to finish her financial report.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Despite she was very tired, she tried to finish her financial report.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "In spite of she was very tired, she tried to finish her financial report.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 628,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "He didn't study hard. He failed the final exam.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "If he had studied hard, he wouldn't have failed the final exam.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "If he studied hard, he wouldn't fail the final exam.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Unless he studied hard, he would fail the final exam.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "Provided that he studied hard, he wouldn't have failed the final exam.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 629,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The novel is very interesting. I bought it from the bookstore yesterday.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "The novel which I bought from the bookstore yesterday is very interesting.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "The novel who I bought from the bookstore yesterday is very interesting.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The novel whom I bought from the bookstore yesterday is very interesting.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The novel whose I bought from the bookstore yesterday is very interesting.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      },
+      {
+        "k": "q",
+        "no": 630,
+        "qtype": "mc",
+        "stem": [
+          {
+            "t": "The teacher explained the lesson clearly. Everyone understood it perfectly.",
+            "f": 0
+          }
+        ],
+        "opts": [
+          {
+            "runs": [
+              {
+                "t": "The teacher explained the lesson clearly enough for everyone to understand perfectly.",
+                "f": 0
+              }
+            ],
+            "ok": true
+          },
+          {
+            "runs": [
+              {
+                "t": "The teacher explained the lesson too clearly for everyone to understand perfectly.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The teacher explained the lesson so clearly that everyone couldn't understand perfectly.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          },
+          {
+            "runs": [
+              {
+                "t": "The teacher explained the lesson such clearly that everyone understood it perfectly.",
+                "f": 0
+              }
+            ],
+            "ok": false
+          }
+        ],
+        "g": 0
+      }
+    ]
+  }
+]
