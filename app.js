@@ -165,8 +165,10 @@ function rich(runs, map) {
 
 function questionHtml(q) {
   const stem = q.stem.length ? rich(q.stem) : `Chọn đáp án đúng cho chỗ trống (${q.n}).`;
+  // Câu có từ/cụm từ "gạch chân" (in đậm trong dữ liệu): để phần còn lại chữ thường, phần in đậm mới nổi bật
+  const hasBold = q.stem.some((r) => r.f & 2);
   return `<div class="question-box bg-white border border-gray-200 rounded-xl p-4" id="qbox-${q.n}">
-    <p class="font-semibold text-gray-800 mb-3 whitespace-pre-line"><span class="text-blue-700">Câu ${q.n}.</span> ${stem}</p>
+    <p class="${hasBold ? "font-normal" : "font-semibold"} text-gray-800 mb-3 whitespace-pre-line"><span class="text-blue-700 font-semibold">Câu ${q.n}.</span> ${stem}</p>
     <div class="grid gap-2 sm:grid-cols-2">
       ${q.opts.map((o, j) => `<label class="option-label flex items-center gap-3 border border-gray-200 rounded-lg p-3 bg-white">
         <input type="radio" name="q${q.n}" value="${j}" class="w-4 h-4 accent-blue-600 flex-shrink-0">

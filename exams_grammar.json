@@ -22615,7 +22615,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "The (A) information you gave me (B) were very (C) useful for (D) my research.",
+            "t": "The (A) ",
+            "f": 0
+          },
+          {
+            "t": "information you gave me",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "were",
+            "f": 2
+          },
+          {
+            "t": " very (C) ",
+            "f": 0
+          },
+          {
+            "t": "useful for",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "my research",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -22665,7 +22697,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "If I (A) had known about the traffic jam, I (B) would leave (C) home earlier (D) this morning.",
+            "t": "If I (A) ",
+            "f": 0
+          },
+          {
+            "t": "had known",
+            "f": 2
+          },
+          {
+            "t": " about the traffic jam, I (B) ",
+            "f": 0
+          },
+          {
+            "t": "would leave",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "home earlier",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "this morning",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -22715,7 +22779,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "My sister (A) is very (B) good at (C) to play (D) the piano.",
+            "t": "My sister (A) ",
+            "f": 0
+          },
+          {
+            "t": "is very",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "good at",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "to play",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "the piano",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -22765,7 +22861,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "The film (A) which we (B) watched it (C) last night (D) was fascinating.",
+            "t": "The film (A) ",
+            "f": 0
+          },
+          {
+            "t": "which we",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "watched it",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "last night",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "was fascinating",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -22815,7 +22943,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "(A) Most of (B) the students in my class (C) is (D) preparing for the entrance exam.",
+            "t": "(A) ",
+            "f": 0
+          },
+          {
+            "t": "Most of",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "the students in my class",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "preparing for",
+            "f": 2
+          },
+          {
+            "t": " the entrance exam.",
             "f": 0
           }
         ],
@@ -22865,7 +23025,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "He (A) asked me (B) what was (C) my name (D) when we first met.",
+            "t": "He (A) ",
+            "f": 0
+          },
+          {
+            "t": "asked me",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "what was",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "my name",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "when we first met",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -22915,7 +23107,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "The (A) teacher (B) as well as her (C) students (D) are going on a field trip tomorrow.",
+            "t": "The (A) ",
+            "f": 0
+          },
+          {
+            "t": "teacher",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "as well as her",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "students",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "are going",
+            "f": 2
+          },
+          {
+            "t": " on a field trip tomorrow.",
             "f": 0
           }
         ],
@@ -22965,7 +23189,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "She (A) is (B) more (C) intelligent (D) than any other girls in her class.",
+            "t": "She (A) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "more",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "intelligent",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "than any other girls",
+            "f": 2
+          },
+          {
+            "t": " in her class.",
             "f": 0
           }
         ],
@@ -23015,7 +23271,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "I (A) look forward (B) to (C) hear from you (D) soon.",
+            "t": "I (A) ",
+            "f": 0
+          },
+          {
+            "t": "look forward",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "to",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "hear from you",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "soon",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23065,7 +23353,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "Scarcely (A) he had (B) finished (C) his speech (D) when the audience stood up and applauded.",
+            "t": "Scarcely (A) ",
+            "f": 0
+          },
+          {
+            "t": "he had",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "finished",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "his speech",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "when",
+            "f": 2
+          },
+          {
+            "t": " the audience stood up and applauded.",
             "f": 0
           }
         ],
@@ -23115,7 +23435,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "She (A) has lived (B) in London (C) since (D) five years.",
+            "t": "She (A) ",
+            "f": 0
+          },
+          {
+            "t": "has lived",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "in London",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "since",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "five years",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23165,7 +23517,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "I (A) have (B) never (C) saw (D) such a beautiful view.",
+            "t": "I (A) ",
+            "f": 0
+          },
+          {
+            "t": "have",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "never",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "saw",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "such a beautiful view",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23215,7 +23599,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "He (A) is (B) one of the (C) most intelligent (D) student in the school.",
+            "t": "He (A) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "one of the",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "most intelligent",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "student in the school",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23265,7 +23681,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "She (A) is (B) interested (C) on (D) art and music.",
+            "t": "She (A) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "interested",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "on",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "art and music",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23315,7 +23763,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "She (A) enjoys (B) to listen (C) to music (D) in her free time.",
+            "t": "She (A) ",
+            "f": 0
+          },
+          {
+            "t": "enjoys",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "to listen",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "to music",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "in her free time",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23365,7 +23845,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "If I (A) were (B) rich, I (C) will (D) buy a big house.",
+            "t": "If I (A) ",
+            "f": 0
+          },
+          {
+            "t": "were",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "rich",
+            "f": 2
+          },
+          {
+            "t": ", I (C) ",
+            "f": 0
+          },
+          {
+            "t": "will",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "buy a big house",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23415,7 +23927,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "My (A) father (B) is (C) a engineer (D) in a big company.",
+            "t": "My (A) ",
+            "f": 0
+          },
+          {
+            "t": "father",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "a engineer",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "in a big company",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23465,7 +24009,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "(A) Although it (B) was raining, (C) but we (D) went out.",
+            "t": "(A) ",
+            "f": 0
+          },
+          {
+            "t": "Although it",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "was raining",
+            "f": 2
+          },
+          {
+            "t": ", (C) ",
+            "f": 0
+          },
+          {
+            "t": "but we",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "went out",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23515,7 +24091,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "He (A) is (B) too (C) tired (D) that he can't walk.",
+            "t": "He (A) ",
+            "f": 0
+          },
+          {
+            "t": "is",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "too",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "tired",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "that he can't walk",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -23565,7 +24173,39 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "(A) Neither John (B) nor his friends (C) was (D) at the party.",
+            "t": "(A) ",
+            "f": 0
+          },
+          {
+            "t": "Neither John",
+            "f": 2
+          },
+          {
+            "t": " (B) ",
+            "f": 0
+          },
+          {
+            "t": "nor his friends",
+            "f": 2
+          },
+          {
+            "t": " (C) ",
+            "f": 0
+          },
+          {
+            "t": "was",
+            "f": 2
+          },
+          {
+            "t": " (D) ",
+            "f": 0
+          },
+          {
+            "t": "at the party",
+            "f": 2
+          },
+          {
+            "t": ".",
             "f": 0
           }
         ],
@@ -24158,7 +24798,15 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "The local authority initiated a campaign to protect endangered species in the national park.",
+            "t": "The local authority ",
+            "f": 0
+          },
+          {
+            "t": "initiated",
+            "f": 2
+          },
+          {
+            "t": " a campaign to protect endangered species in the national park.",
             "f": 0
           }
         ],
@@ -24208,7 +24856,15 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "Many scientists believe that global warming is a pressing issue of our time.",
+            "t": "Many scientists believe that global warming is a ",
+            "f": 0
+          },
+          {
+            "t": "pressing",
+            "f": 2
+          },
+          {
+            "t": " issue of our time.",
             "f": 0
           }
         ],
@@ -24267,7 +24923,15 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "The committee rejected the new educational proposal because it was completely impractical.",
+            "t": "The committee ",
+            "f": 0
+          },
+          {
+            "t": "rejected",
+            "f": 2
+          },
+          {
+            "t": " the new educational proposal because it was completely impractical.",
             "f": 0
           }
         ],
@@ -24317,7 +24981,15 @@
         "qtype": "mc",
         "stem": [
           {
-            "t": "His presentation was so confusing that most of the audience didn't understand the main point.",
+            "t": "His presentation was so ",
+            "f": 0
+          },
+          {
+            "t": "confusing",
+            "f": 2
+          },
+          {
+            "t": " that most of the audience didn't understand the main point.",
             "f": 0
           }
         ],
