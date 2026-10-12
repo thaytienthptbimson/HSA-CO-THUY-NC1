@@ -2283,7 +2283,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Over the past fifty years, cities around the world have grown at an astonishing rate. In 1950, fewer than one third of the world's population lived in urban areas; today, more than half do. Many people move to cities in search of better jobs, higher wages and access to quality education and healthcare. Large cities also offer entertainment, cultural activities and a wide variety of services that rural areas rarely provide.",
+            "t": "Over the past fifty years, cities around the world have grown at an ",
+            "f": 0
+          },
+          {
+            "t": "astonishing",
+            "f": 2
+          },
+          {
+            "t": " rate. In 1950, fewer than one third of the world's population lived in urban areas; today, more than half do. Many people move to cities in search of better jobs, higher wages and access to quality education and healthcare. Large cities also offer entertainment, cultural activities and a wide variety of services that rural areas rarely provide.",
             "f": 0
           }
         ]
@@ -2560,7 +2568,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Sleep is as important to our health as food and exercise, yet many people do not get enough of it. Adults generally need between seven and nine hours of sleep each night, while teenagers require even more because their bodies are still developing. During sleep, the brain organises memories and the body repairs itself. People who regularly sleep too little often find it difficult to concentrate and are more likely to feel stressed.",
+            "t": "Sleep is as important to our health as food and exercise, yet many people do not get enough of ",
+            "f": 0
+          },
+          {
+            "t": "it",
+            "f": 2
+          },
+          {
+            "t": ". Adults generally need between seven and nine hours of sleep each night, while teenagers require even more because their bodies are still developing. During sleep, the brain organises memories and the body repairs itself. People who regularly sleep too little often find it difficult to concentrate and are more likely to feel stressed.",
             "f": 0
           }
         ]
@@ -5110,7 +5126,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Tourism has become one of the world's largest industries. Every year, millions of travellers visit popular destinations such as beaches, historic cities and national parks. For many countries, tourism is an important source of income, providing jobs for local people and supporting small businesses like restaurants, hotels and souvenir shops. It can also encourage communities to preserve their traditions and protect their natural heritage.",
+            "t": "Tourism has become one of the world's largest industries. Every year, millions of travellers visit popular destinations such as beaches, historic cities and national parks. For many countries, tourism is an important source of income, providing jobs for local people and supporting small businesses like restaurants, hotels and souvenir shops. It can also encourage communities to ",
+            "f": 0
+          },
+          {
+            "t": "preserve",
+            "f": 2
+          },
+          {
+            "t": " their traditions and protect their natural heritage.",
             "f": 0
           }
         ]
@@ -5119,7 +5143,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Nevertheless, too many visitors can damage the very places they come to enjoy. In some famous towns, residents complain about noise, rubbish and rising prices, while coral reefs and mountain trails suffer from constant human traffic. To deal with this problem, several authorities have limited the number of daily visitors or introduced entrance fees. Many travellers are also choosing \"responsible tourism\", which means respecting local cultures and leaving as little impact on nature as possible.",
+            "t": "Nevertheless, too many visitors can damage the very places they come to enjoy. In some famous towns, residents complain about noise, rubbish and rising prices, while coral reefs and mountain trails suffer from constant human traffic. To deal with this problem, several authorities have limited the number of daily visitors or introduced entrance fees. Many travellers are also choosing \"",
+            "f": 0
+          },
+          {
+            "t": "responsible tourism",
+            "f": 2
+          },
+          {
+            "t": "\", which means respecting local cultures and leaving as little impact on nature as possible.",
             "f": 0
           }
         ]
@@ -5387,7 +5419,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Since the first satellite was launched in 1957, space exploration has produced remarkable achievements. Humans have walked on the Moon, robots have travelled across the surface of Mars, and telescopes in orbit have sent back stunning images of distant galaxies. Many of the technologies developed for space missions are now part of everyday life, including satellite navigation, weather forecasting and some medical devices.",
+            "t": "Since the first satellite was launched in 1957, space exploration has produced remarkable achievements. Humans have walked on the Moon, robots have travelled across the surface of Mars, and telescopes in orbit have sent back ",
+            "f": 0
+          },
+          {
+            "t": "stunning",
+            "f": 2
+          },
+          {
+            "t": " images of distant galaxies. Many of the technologies developed for space missions are now part of everyday life, including satellite navigation, weather forecasting and some medical devices.",
             "f": 0
           }
         ]
@@ -7937,7 +7977,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Social media has become an essential part of teenagers' lives. Platforms such as Instagram and TikTok allow young people to share photos, follow their favourite celebrities and keep in touch with friends who live far away. Many teenagers also use these platforms to learn new skills, from cooking to coding, by watching short tutorial videos. For some, online communities provide a sense of belonging that they cannot find at school.",
+            "t": "Social media has become an essential part of teenagers' lives. Platforms such as Instagram and TikTok allow young people to share photos, follow their favourite celebrities and keep in touch with friends who live far away. Many teenagers also use these platforms to learn new skills, from cooking to coding, by watching short tutorial videos. For some, online communities provide ",
+            "f": 0
+          },
+          {
+            "t": "a sense of belonging",
+            "f": 2
+          },
+          {
+            "t": " that they cannot find at school.",
             "f": 0
           }
         ]
@@ -8214,7 +8262,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Plastic is cheap, light and durable, which is why it is found in almost everything we use, from bottles and bags to toys and phones. Unfortunately, these same qualities make plastic a serious environmental problem. A plastic bottle can take hundreds of years to break down, and every year millions of tonnes of plastic waste end up in the oceans. Marine animals often mistake it for food, and as a result, many seabirds, turtles and fish die.",
+            "t": "Plastic is cheap, light and ",
+            "f": 0
+          },
+          {
+            "t": "durable",
+            "f": 2
+          },
+          {
+            "t": ", which is why it is found in almost everything we use, from bottles and bags to toys and phones. Unfortunately, these same qualities make plastic a serious environmental problem. A plastic bottle can take hundreds of years to break down, and every year millions of tonnes of plastic waste end up in the oceans. Marine animals often mistake it for food, and as a result, many seabirds, turtles and fish die.",
             "f": 0
           }
         ]
@@ -10773,7 +10829,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Despite its advantages, online shopping has some drawbacks. Customers cannot touch or try on products before buying them, so the items they receive may not match their expectations. There are also risks related to security, as criminals may steal personal information or create fake websites. In addition, the growing number of delivery vehicles and the large amount of packaging waste raise concerns about the environment. Shoppers are therefore advised to use trusted websites and to think carefully before making purchases.",
+            "t": "Despite its advantages, online shopping has some ",
+            "f": 0
+          },
+          {
+            "t": "drawbacks",
+            "f": 2
+          },
+          {
+            "t": ". Customers cannot touch or try on products before buying them, so the items they receive may not match their expectations. There are also risks related to security, as criminals may steal personal information or create fake websites. In addition, the growing number of delivery vehicles and the large amount of packaging waste raise concerns about the environment. Shoppers are therefore advised to use trusted websites and to think carefully before making purchases.",
             "f": 0
           }
         ]
@@ -11050,7 +11114,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Other habits also influence memory. Sleep, for example, plays a crucial role because the brain processes and stores new information while we rest. Regular exercise increases blood flow to the brain and can improve concentration. Moreover, explaining a topic to another person forces us to organise our thoughts, which helps us understand it more deeply. By combining these strategies, learners can study more efficiently and enjoy better results with less stress.",
+            "t": "Other habits also influence memory. Sleep, for example, plays a ",
+            "f": 0
+          },
+          {
+            "t": "crucial",
+            "f": 2
+          },
+          {
+            "t": " role because the brain processes and stores new information while we rest. Regular exercise increases blood flow to the brain and can improve concentration. Moreover, explaining a topic to another person forces us to organise our thoughts, which helps us understand it more deeply. By combining these strategies, learners can study more efficiently and enjoy better results with less stress.",
             "f": 0
           }
         ]
@@ -13600,7 +13672,23 @@
         "k": "p",
         "runs": [
           {
-            "t": "On the other hand, remote work is not suitable for everyone. Some employees feel isolated without daily contact with their colleagues, and the boundary between work and private life can easily become blurred, leading to longer working hours and exhaustion. Managers also face the challenge of monitoring progress and maintaining team spirit from a distance. As a result, many organisations now adopt a hybrid model, in which staff work in the office for part of the week and from home for the rest.",
+            "t": "On the other hand, remote work is not suitable for everyone. Some employees feel isolated without daily contact with their colleagues, and the boundary between work and private life can easily become ",
+            "f": 0
+          },
+          {
+            "t": "blurred",
+            "f": 2
+          },
+          {
+            "t": ", leading to longer working hours and exhaustion. Managers also face the challenge of monitoring progress and maintaining team spirit from a distance. As a result, many organisations now adopt a ",
+            "f": 0
+          },
+          {
+            "t": "hybrid model",
+            "f": 2
+          },
+          {
+            "t": ", in which staff work in the office for part of the week and from home for the rest.",
             "f": 0
           }
         ]
@@ -13868,7 +13956,15 @@
         "k": "p",
         "runs": [
           {
-            "t": "Biodiversity, the variety of living things on Earth, is declining at an alarming rate. Scientists estimate that thousands of species become extinct every year, mainly because of human activities such as deforestation, hunting and pollution. When forests are cleared for farming or construction, animals lose their homes and food sources. Climate change adds further pressure by altering temperatures and rainfall patterns faster than many species can adapt.",
+            "t": "Biodiversity, the variety of living things on Earth, is declining at an ",
+            "f": 0
+          },
+          {
+            "t": "alarming",
+            "f": 2
+          },
+          {
+            "t": " rate. Scientists estimate that thousands of species become extinct every year, mainly because of human activities such as deforestation, hunting and pollution. When forests are cleared for farming or construction, animals lose their homes and food sources. Climate change adds further pressure by altering temperatures and rainfall patterns faster than many species can adapt.",
             "f": 0
           }
         ]
